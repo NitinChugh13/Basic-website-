@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Brand Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Car Brand</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Car Brand</h2>
+            <p>Discover our amazing range of cars.</p>
+        </section>
+
+        <section id="models">
+            <h2>Our Models</h2>
+            <div class="car-model" onclick="showDetails('Sedan')">
+                <h3>Sedan</h3>
+                <p>A comfortable family car.</p>
+            </div>
+            <div class="car-model" onclick="showDetails('SUV')">
+                <h3>SUV</h3>
+                <p>A spacious and powerful vehicle.</p>
+            </div>
+            <div class="car-model" onclick="showDetails('Coupe')">
+                <h3>Coupe</h3>
+                <p>A stylish two-door car.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@carbrand.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Brand. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
